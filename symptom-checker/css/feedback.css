@@ -1,0 +1,52 @@
+/* General styling for the main content area */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color:aliceblue;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styling for the feedback form container */
+.feedback {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    width: 300px;
+}
+
+/* Styling for form elements */
+.feedback form {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback label {
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+.feedback input[type="text"],
+.feedback input[type="email"],
+.feedback textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+/* Styling for the submit button */
+.btn {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #003d82;
+}

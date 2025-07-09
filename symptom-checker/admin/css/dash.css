@@ -1,0 +1,36 @@
+/* Button styling */
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.btn1 {
+    flex: 1;
+}
+
+.button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 600px) {
+    .btn {
+        flex-direction: column;
+    }
+}

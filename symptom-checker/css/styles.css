@@ -1,0 +1,153 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    max-height: fit-content;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(15, 16, 95, 0.927);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-style: italic;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    margin: 10px;
+    font-size: xx-large;
+}
+
+/* Navigation styles */
+nav {
+    background-color: rgb(89, 204, 229);
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    -webkit-text-stroke-color: black;
+    font-size: larger;
+}
+.btn {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    -webkit-text-stroke-color: black;
+    font-size: larger;
+}
+.btn, nav a:hover, nav a:active {
+    background-color: rgba(15, 16, 95, 0.927);
+    border-radius: 50px;
+}
+
+/* Main content styles */
+main {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin-left: 2fr;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+h2, .Decode, .discover {
+    color: rgba(15, 16, 95, 0.927);
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.Decode {
+    font-size: 60px;
+}
+
+.discover {
+    font-size: 55px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Button styles */
+.button-container {
+    background-color: rgba(15, 16, 95, 0.927);
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition-duration: 0.4s;
+    border: none;
+    font-style: italic;
+}
+
+.button-container:hover {
+    background-color: rgb(89, 204, 229);
+}
+
+/* Image container styles */
+.image-container {
+    flex: 1;
+    text-align: right;
+    order: 2;
+}
+
+.image-container img {
+    max-width: 60%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
